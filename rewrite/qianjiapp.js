@@ -9,7 +9,7 @@
 
 [rewrite_local]
 # > 钱迹解锁终身会员
-^https?:\/\/api\.qianjiapp\.com\/vip\/configios url script-response-body https://raw.githubusercontent.com/huh0ngtao/Quantumult-X/main/rewrite/MoneyTraceVipCrack.js
+^https?:\/\/api\.qianjiapp\.com\/vip\/configios url script-response-body https://raw.githubusercontent.com/huh0ngtao/Quantumult-X/main/rewrite/qianjiapp.js
 
 [mitm] 
 hostname = api.qianjiapp.com
