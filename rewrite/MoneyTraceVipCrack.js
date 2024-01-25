@@ -1,7 +1,7 @@
 /******************************
 
 脚本功能：钱迹解锁终身会员
-软件版本：3.0.15
+软件版本：4.0.9
 更新时间：2024-01-25
 使用声明：⚠️仅供学习交流，🈲️商业用途
 
@@ -19,9 +19,9 @@ hostname = api.qianjiapp.com
 var body = $response.body;
 var obj = JSON.parse(body);
 
-obj.data.userinfo.viptype = 100;
-obj.data.userinfo.vipstart = 1704117226;
-obj.data.userinfo.vipend = 4070958912;
+obj.data.config.userinfo.viptype = 100;
+obj.data.config.userinfo.vipstart = 1704117226;
+obj.data.config.userinfo.vipend = 4070958912;
 
 body = JSON.stringify(obj);
 $done({'body' : body});
