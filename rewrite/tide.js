@@ -25,7 +25,7 @@ obj.vip = {
     "is_lifetime_member" : true,
     "updated_at" : 1704038400,
     "premium_type" : 2,
-    "subscription_expired_At" : 4092599349
+    "subscription_expired_at" : 4092599349
 };
 
 $done({body : JSON.stringify(obj)});
