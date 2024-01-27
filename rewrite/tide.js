@@ -9,7 +9,7 @@
 
 [rewrite_local]
 # > Tide Guide潮汐
-^https?:\/\/tide-api\.moreless\.io\/v1\/users\/self url script-response-body https://raw.githubusercontent.com/huh0ngtao/Quantumult-X/main/rewrite/tide.js
+^https?:\/\/tide-api\.moreless\.io\/v1\/users\/self$ url script-response-body https://raw.githubusercontent.com/huh0ngtao/Quantumult-X/main/rewrite/tide.js
 
 [mitm] 
 hostname = tide-api.moreless.io
